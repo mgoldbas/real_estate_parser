@@ -7,6 +7,7 @@ with open(filename, 'r') as f:
 
 line_count = 0
 file_count = 0
+
 f = open(f'output_{file_count}.csv', 'w')
 for line in data:
     f.write(line)
